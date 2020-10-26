@@ -186,7 +186,7 @@ app.layout = html.Div(
                              dcc.Graph(id='bar_plot_assets_var1',
                                        #figure=go.Figure()
                                        figure=go.Figure(data=[trace_var_assets, trace_cvar_assets], 
-                                                        layout=go.Layout(title='test',barmode='group', plot_bgcolor='rgb(254, 247, 234)', yaxis=dict(title='€'))),
+                                                        layout=go.Layout(barmode='group', plot_bgcolor='rgb(254, 247, 234)', yaxis=dict(title='€'))),
                                        #figure.update_layout(yaxis_title="€")
                                        # Prefix y-axis tick labels with dollar sign
                                        #figure.update_yaxes(tickprefix="$")
