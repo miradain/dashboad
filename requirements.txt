@@ -1,0 +1,9 @@
+dash
+dash_html_components
+dash_core_components
+plotly
+pandas_datareader
+datetime 
+pandas
+numpy
+yahoo_fin
